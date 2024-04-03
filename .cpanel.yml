@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/primncrn/laravel.primelogix.net/
-    - /bin/cp * $DEPLOYPATH
