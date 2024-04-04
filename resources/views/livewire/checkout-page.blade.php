@@ -40,7 +40,7 @@
                         </div>
                         <div class="mt-4">
                             <label class="block text-gray-700 dark:text-white mb-1" for="phone">
-                                Phone
+                                Phone Number
                             </label>
                             <input wire:model="phone"
                                 class="w-full rounded-lg border py-2 px-3 dark:bg-gray-700 dark:text-white dark:border-none @error('phone') border-red-500 @enderror"
