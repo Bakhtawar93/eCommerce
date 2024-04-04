@@ -22,7 +22,7 @@
                                     id="first_name" type="text">
                                 </input>
                                 @error('first_name')
-                                <div class="text-red-500 text-sm">{{ $message }}</div>
+                                    <div class="text-red-500 text-sm">{{ $message }}</div>
                                 @enderror
                             </div>
                             <div>
@@ -30,10 +30,11 @@
                                     Last Name
                                 </label>
                                 <input wire:model="last_name"
-                                    class="w-full rounded-lg border py-2 px-3 dark:bg-gray-700 dark:text-white dark:border-none @error('last_name') border-red-500 @enderror" id="last_name" type="text">
+                                    class="w-full rounded-lg border py-2 px-3 dark:bg-gray-700 dark:text-white dark:border-none @error('last_name') border-red-500 @enderror"
+                                    id="last_name" type="text">
                                 </input>
                                 @error('last_name')
-                                <div class="text-red-500 text-sm">{{ $message }}</div>
+                                    <div class="text-red-500 text-sm">{{ $message }}</div>
                                 @enderror
                             </div>
                         </div>
@@ -47,7 +48,7 @@
                             </input>
                             @error('phone')
                                 <div class="text-red-500 text-sm">{{ $message }}</div>
-                                @enderror
+                            @enderror
                         </div>
                         <div class="mt-4">
                             <label class="block text-gray-700 dark:text-white mb-1" for="address">
@@ -59,7 +60,7 @@
                             </input>
                             @error('street_address')
                                 <div class="text-red-500 text-sm">{{ $message }}</div>
-                                @enderror
+                            @enderror
                         </div>
                         <div class="mt-4">
                             <label class="block text-gray-700 dark:text-white mb-1" for="city">
@@ -71,7 +72,7 @@
                             </input>
                             @error('city')
                                 <div class="text-red-500 text-sm">{{ $message }}</div>
-                                @enderror
+                            @enderror
                         </div>
                         <div class="grid grid-cols-2 gap-4 mt-4">
                             <div>
@@ -83,7 +84,7 @@
                                     id="state" type="text">
                                 </input>
                                 @error('state')
-                                <div class="text-red-500 text-sm">{{ $message }}</div>
+                                    <div class="text-red-500 text-sm">{{ $message }}</div>
                                 @enderror
                             </div>
                             <div>
@@ -95,7 +96,7 @@
                                     id="zip" type="text">
                                 </input>
                                 @error('zip_code')
-                                <div class="text-red-500 text-sm">{{ $message }}</div>
+                                    <div class="text-red-500 text-sm">{{ $message }}</div>
                                 @enderror
                             </div>
                         </div>
@@ -105,8 +106,8 @@
                     </div>
                     <ul class="grid w-full gap-6 md:grid-cols-2">
                         <li>
-                            <input wire:model="payment_method" class="hidden peer" id="hosting-small" required="" type="radio"
-                                value="cod" />
+                            <input wire:model="payment_method" class="hidden peer" id="hosting-small" required=""
+                                type="radio" value="cod" />
                             <label
                                 class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
                                 for="hosting-small">
@@ -124,7 +125,8 @@
                             </label>
                         </li>
                         <li>
-                            <input wire:model="payment_method" class="hidden peer" id="hosting-big" type="radio" value="stripe">
+                            <input wire:model="payment_method" class="hidden peer" id="hosting-big" type="radio"
+                                value="stripe">
                             <label
                                 class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
                                 for="hosting-big">
@@ -144,8 +146,8 @@
                         </li>
                     </ul>
                     @error('payment_method')
-                                <div class="text-red-500 text-sm">{{ $message }}</div>
-                                @enderror
+                        <div class="text-red-500 text-sm">{{ $message }}</div>
+                    @enderror
                 </div>
                 <!-- End Card -->
             </div>
@@ -189,7 +191,8 @@
                     </div>
                     </hr>
                 </div>
-                <button type="submit" class="bg-green-500 mt-4 w-full p-3 rounded-lg text-lg text-white hover:bg-green-600">
+                <button type="submit"
+                    class="bg-green-500 mt-4 w-full p-3 rounded-lg text-lg text-white hover:bg-green-600">
                     Place Order
                 </button>
                 <div class="bg-white mt-4 rounded-xl shadow p-4 sm:p-7 dark:bg-slate-900">
