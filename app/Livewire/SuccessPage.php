@@ -9,7 +9,7 @@ use Livewire\Component;
 use Stripe\Checkout\Session;
 use Stripe\Stripe;
 
-#[Title('Success - Ecommerce')]
+#[Title('Success Page - Ecommerce')]
 
 class SuccessPage extends Component
 {
