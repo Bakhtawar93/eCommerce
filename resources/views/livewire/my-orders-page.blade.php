@@ -23,7 +23,7 @@
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200"><span class="bg-green-500 py-1 px-3 rounded text-white shadow">Paid</span></td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">12,000.00</td>
                   <td class="px-6 py-4 whitespace-nowrap text-end text-sm font-medium">
-                    <a href="#" class="bg-slate-600 text-white py-2 px-4 rounded-md hover:bg-slate-500">View Details</a>
+                    <a href="#" class="bg-red-300 text-white py-2 px-4 rounded-md hover:bg-slate-500">View Details</a>
                   </td>
                 </tr>
 
@@ -34,7 +34,7 @@
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200"><span class="bg-green-500 py-1 px-3 rounded text-white shadow">Paid</span></td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">12,000.00</td>
                   <td class="px-6 py-4 whitespace-nowrap text-end text-sm font-medium">
-                    <a href="#" class="bg-slate-600 text-white py-2 px-4 rounded-md hover:bg-slate-500">View Details</a>
+                    <a href="#" class="bg-red-300 text-white py-2 px-4 rounded-md hover:bg-slate-500">View Details</a>
                   </td>
                 </tr>
 
@@ -45,7 +45,7 @@
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200"><span class="bg-green-500 py-1 px-3 rounded text-white shadow">Paid</span></td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">12,000.00</td>
                   <td class="px-6 py-4 whitespace-nowrap text-end text-sm font-medium">
-                    <a href="#" class="bg-slate-600 text-white py-2 px-4 rounded-md hover:bg-slate-500">View Details</a>
+                    <a href="#" class="bg-red-300 text-white py-2 px-4 rounded-md hover:bg-slate-500">View Details</a>
                   </td>
                 </tr>
 
