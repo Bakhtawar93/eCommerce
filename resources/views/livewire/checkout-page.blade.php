@@ -186,7 +186,7 @@
                             Grand Total
                         </span>
                         <span>
-                            {{ Number::currency($grand_total, 'PKR') }}
+                            {{ Number::currency($grand_total) }}
                         </span>
                     </div>
                     </hr>
